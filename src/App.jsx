@@ -1,5 +1,6 @@
-import Counter from './components/counter'
-import './App.css'
+import './App.css';
+import Counter from './components/counter';
+import TodoList from './components/TodoList';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1>Vite + React</h1>
       <Counter/>
+      <TodoList/>
     </>
   )
 }
