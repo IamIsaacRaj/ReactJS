@@ -1,20 +1,20 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const TodoList = () => {
-    const [todo,setTodo] = useState("");
-    const [todos,setTodos] = useState([]);
+  const [todo, setTodo] = useState("");
+  const [todos, setTodos] = useState([]);
 
-    // funtion to add a new todo
-    const addTodo = () => {
-        if (todo.trim() !== "") {
-            setTodos([...todos,todo]);
-            setTodo(""); // to clear the input after adding
-        }
-    };
-    // function to delete a task from todo list
-    const deleteTodo = (indexToDelete) => {
-        setTodos(todos.filter((_,index) => index !== indexToDelete));
-    };
+  // funtion to add a new todo
+  const addTodo = () => {
+    if (todo.trim() !== "") {
+      setTodos([...todos, todo]);
+      setTodo(""); // to clear the input after adding
+    }
+  };
+  // function to delete a task from todo list
+  const deleteTodo = (indexToDelete) => {
+    setTodos(todos.filter((_, index) => index !== indexToDelete));
+  };
 
   return (
     <div>
@@ -30,16 +30,21 @@ const TodoList = () => {
         Add Todo
       </button>
 
-      <div style={{marginTop:"20px"}}>
-        {todos.map((item,index) => (
-           <div key={index} style={{marginBottom: "10px"}}>
+      <div style={{ marginTop: "20px" }}>
+        {todos.map((item, index) => (
+          <div key={index} style={{ marginBottom: "10px" }}>
             {item}
-            <button onClick={() => deleteTodo(index)} style={{ marginLeft: "10px", padding: "4px 8px" }}>Delete</button>
-           </div> 
+            <button
+              onClick={() => deleteTodo(index)}
+              style={{ marginLeft: "10px", padding: "4px 8px" }}
+            >
+              Delete
+            </button>
+          </div>
         ))}
       </div>
     </div>
   );
 };
 
-export default TodoList
+export default TodoList;

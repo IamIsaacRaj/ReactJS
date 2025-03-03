@@ -6,7 +6,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h1>Counter</h1>
+      <h2>Counter</h2>
       <input
         type="number"
         value={step}
