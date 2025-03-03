@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './components/Calculator';
+import ColorPicker from './components/ColorPicker';
 import Counter from './components/counter';
 import TodoList from './components/TodoList';
 
@@ -11,6 +12,7 @@ function App() {
       <Counter/>
       <TodoList/>
       <Calculator/>
+      <ColorPicker/>
     </>
   )
 }
