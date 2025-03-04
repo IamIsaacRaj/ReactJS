@@ -17,6 +17,9 @@ This repository contains three beginner-friendly React projects:
 1. **Counter** - A simple counter with increment, decrement, and reset functionality.
 2. **Todo List** - A basic todo list where users can add and delete tasks.
 3. **Calculator** - A simple calculator for basic arithmetic operations.
+4️⃣ **Color Picker** 🎨 – Changes background color dynamically using `useState`.  
+5️⃣ **Weather App** 🌤️ – Fetches real-time weather data using the OpenWeatherMap API.  
+6️⃣ **Greeting App** 👋 – Displays a greeting message using **props**.
 
 ## 🚀 How to Run
 
@@ -28,13 +31,18 @@ This repository contains three beginner-friendly React projects:
 
 ## 🛠️ Technologies Used
 
-- React.js
-- JavaScript (ES6+)
-- HTML & CSS
+- React.js (Vite) ⚛️  
+- JavaScript (ES6+)  
+- Axios (for API requests)  
+- OpenWeatherMap API 🌍  
+- HTML & 
 
 ## 📌 Features
 
-✅ Simple and beginner-friendly  
-✅ Functional components with hooks (`useState`)  
-✅ Interactive UI  
+✅ Built with **React + Vite** for fast development  
+✅ Uses **Functional Components & Hooks (`useState`, `useEffect`)**  
+✅ Fetches real-time **weather data** from OpenWeatherMap  
+✅ **Environment variables (`.env`)** to store API keys securely  
+✅ Beginner-friendly **interactive UI**  
+✅ Demonstrates **props** usage in the **Greeting App**  
 
