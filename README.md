@@ -20,7 +20,6 @@ This repository contains three beginner-friendly React projects:
 4️⃣ **Color Picker** 🎨 – Changes background color dynamically using `useState`.  
 5️⃣ **Weather App** 🌤️ – Fetches real-time weather data using the OpenWeatherMap API.  
 6️⃣ **Greeting App** 👋 – Displays a greeting message using **props**.
-
 ## 🚀 How to Run
 
 1. Clone this repository:
@@ -46,3 +45,16 @@ This repository contains three beginner-friendly React projects:
 ✅ Beginner-friendly **interactive UI**  
 ✅ Demonstrates **props** usage in the **Greeting App**  
 
+7️⃣ **Notes App** 👋 – A simple React.js Notes App that allows users to create, edit, delete, and search notes with **local storage** support.
+📌 Features
+✅ Add, Edit, Delete Notes ✍️
+✅ Store Notes in Local Storage 📁
+✅ Search Notes by Title 🔍
+✅ Styled with CSS (Basic UI) 🎨
+✅ Bullet/Numbered List Formatting 📋
+
+🛠️ Technologies Used
+- React.js (Vite) ⚛️
+- useState, useEffect (React Hooks)
+- Local Storage (Persistent data)
+- CSS for styling 🎨
